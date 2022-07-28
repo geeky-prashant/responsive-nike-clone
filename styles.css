@@ -496,7 +496,7 @@ footer {
     margin: 5px;
     padding: 5px;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 14px;
   }
   .slider {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
