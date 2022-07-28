@@ -542,6 +542,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 920px;
   }
   .productImg {
     width: 70%;
@@ -599,6 +600,13 @@ footer {
   .nsItem:nth-child(2) {
     padding: 60px;
   }
+  .nsTitleSm {
+    text-align: center;
+  }
+  .nsTitle {
+    text-align: center;
+    font-size: 30px;
+  }
   footer {
     flex-direction: column;
     align-items: center;
@@ -611,7 +619,7 @@ footer {
   .footerRight {
     width: 100%;
     padding: 0px;
-    margin-bottom: 150px;
+    margin-bottom: 20px;
     align-items: center;
   }
   .fMenuTitle {
