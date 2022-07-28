@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav id="nav">
+      <div class="navTop">
+        <div class="navItem">
+          <img src="images/logo.png" class="logo" />
+        </div>
+        <div class="navItem">
+          <div class="search">
+            <form>
+              <img src="images/search.png" class="searchIcon" />
+              <input type="text" placeholder="what are you looking for?" />
+              <button type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        <div class="navItem">
+          <span class="limitedOffer">Limited Offer</span>
+        </div>
+      </div>
+      <div class="navBottom">
+        <h3 class="menuItem">AIR FORCE</h3>
+        <h3 class="menuItem">BLAZER</h3>
+        <h3 class="menuItem">CRATER</h3>
+        <h3 class="menuItem">HIPPIE</h3>
+        <h3 class="menuItem">AIR JORDAN</h3>
+      </div>
+    </nav>
+
+    <!-- Product Slider Section -->
+    <div class="slider">
+      <div class="sliderWrapper">
+        <div class="sliderItem">
+          <img src="./images/air2.png" class="sliderImg" />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">
+            FORCE<br />
+            NEW<br />
+            SEASON
+          </h1>
+          <h2 class="sliderPrice">$119</h2>
+          <button class="buyButton">BUY NOW</button>
+        </div>
+        <div class="sliderItem">
+          <img src="./images/blazer.png" class="sliderImg" />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">
+            BLAZER<br />
+            NEW<br />
+            SEASON
+          </h1>
+          <h2 class="sliderPrice">$129</h2>
+          <button class="buyButton">BUY NOW</button>
+        </div>
+        <div class="sliderItem">
+          <img src="./images/crater.png" class="sliderImg" />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">
+            CRATER<br />
+            NEW<br />
+            SEASON
+          </h1>
+          <h2 class="sliderPrice">$139</h2>
+          <button class="buyButton">BUY NOW</button>
+        </div>
+        <div class="sliderItem">
+          <img src="./images/hippie.png" class="sliderImg" />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">
+            HIPPIE<br />
+            NEW<br />
+            SEASON
+          </h1>
+          <h2 class="sliderPrice">$149</h2>
+          <button class="buyButton">BUY NOW</button>
+        </div>
+        <div class="sliderItem">
+          <img src="./images/jordan.png" class="sliderImg" />
+          <div class="sliderBg"></div>
+          <h1 class="sliderTitle">
+            JORDAN<br />
+            NEW<br />
+            SEASON
+          </h1>
+          <h2 class="sliderPrice">$199</h2>
+          <button class="buyButton">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features">
+      <div class="feature">
+        <img src="./images/shipping.png" class="featureIcon" />
+        <span class="featureTitle">FREE SHIPPING</span>
+        <span class="featureDesc">Free worldwide shipping on all orders</span>
+      </div>
+      <div class="feature">
+        <img src="./images/return.png" class="featureIcon" />
+        <span class="featureTitle">30 DAYS RETURN</span>
+        <span class="featureDesc">Easy Return and Refund in 14 days</span>
+      </div>
+      <div class="feature">
+        <img src="./images/gift.png" class="featureIcon" />
+        <span class="featureTitle">GIFT CARD</span>
+        <span class="featureDesc"
+          >Buy Gift Cards and use Coupon Codes easily</span
+        >
+      </div>
+      <div class="feature">
+        <img src="./images/contact.png" class="featureIcon" />
+        <span class="featureTitle">CONTACT US</span>
+        <span class="featureDesc"
+          >Keep in touch via email and ticket system</span
+        >
+      </div>
+    </div>
+
+    <!-- Featured Product Section -->
+    <div class="product">
+      <img src="./images/jordan2.png" class="productImg" />
+      <div class="productDetails">
+        <h1 class="productTitle">AIR JORDAN</h1>
+        <h2 class="productMrp">$599</h2>
+        <h2 class="productPrice">$199</h2>
+        <br />
+        <p class="productDesc">
+          Crafted with brilliance, this low-cut AJ1 brings a throwback hue
+          synonymous with the '90s to an all-time classic silhouette.
+        </p>
+        <br />
+        <div class="colors">
+          <div class="color"></div>
+          <div class="color"></div>
+        </div>
+        <div class="sizes">
+          <div class="size">42</div>
+          <div class="size">43</div>
+          <div class="size">44</div>
+        </div>
+        <button class="productButton">BUY NOW</button>
+      </div>
+      <!-- Payment Model Popup -->
+      <div class="payment">
+        <h1 class="payTitle">Personal Information</h1>
+        <label>Name and Surname</label>
+        <input type="text" placeholder="Prashant Bhardwaj" class="payInput" />
+        <label>Phone Number</label>
+        <input type="text" placeholder="+91 987654321" class="payInput" />
+        <label>Address</label>
+        <input
+          type="text"
+          placeholder="XYZ Colony, Street Number - 78564"
+          class="payInput"
+        /><br />
+        <h1 class="payTitle">Card Information</h1>
+        <div class="cardIcons">
+          <img src="./images/visa.png" width="40px" class="cardIcon" />
+          <img src="./images/master.png" width="40px" class="cardIcon" />
+        </div>
+        <input type="password" class="payInput" placeholder="Card Number" />
+        <div class="cardInfo">
+          <input type="text" placeholder="mm" class="payInput sm" />
+          <input type="text" placeholder="yyyy" class="payInput sm" />
+          <input type="text" placeholder="cvv" class="payInput sm" />
+        </div>
+        <button class="payButton">Pay Now or Later</button>
+        <span class="close">X</span>
+      </div>
+    </div>
+
+    <!-- Gallery Section  -->
+    <div class="gallery">
+      <div class="galleryItem">
+        <img src="images/img1.jpg" class="galleryImg" />
+        <h1 class="galleryTitle">Be Yourself</h1>
+      </div>
+      <div class="galleryItem">
+        <img src="images/img2.jpg" class="galleryImg" />
+        <h1 class="galleryTitle">Just Do It</h1>
+      </div>
+      <div class="galleryItem">
+        <img src="images/img3.jpg" class="galleryImg" />
+        <h1 class="galleryTitle">Stay Motivated</h1>
+      </div>
+    </div>
+
+    <!-- NewSeason Section  -->
+    <div class="newSeason">
+      <div class="nsItem">
+        <img src="images/nsImg1.jpg" class="nsImg" />
+      </div>
+      <div class="nsItem">
+        <h3 class="nsTitleSm">SUMMER NEW ARRIVALS</h3>
+        <br />
+        <h1 class="nsTitle">New Season</h1>
+        <h1 class="nsTitle">New Collection</h1>
+        <br /><br />
+        <a href="#nav">
+          <button class="nsButton">CHOOSE YOUR STYLE</button>
+        </a>
+      </div>
+      <div class="nsItem">
+        <img src="images/nsImg2.jpg" class="nsImg" />
+      </div>
+    </div>
+
+    <!-- Footer Section  -->
+    <footer>
+      <!-- Footer Left  -->
+      <div class="footerLeft">
+        <div class="footerMenu">
+          <h1 class="fMenuTitle">About Us</h1>
+          <ul class="fList">
+            <li class="fListItem">Stores</li>
+            <li class="fListItem">Company</li>
+            <li class="fListItem">Contact</li>
+            <li class="fListItem">Careers</li>
+            <li class="fListItem">Affiliates</li>
+          </ul>
+        </div>
+        <div class="footerMenu">
+          <h1 class="fMenuTitle">Useful Links</h1>
+          <ul class="fList">
+            <li class="fListItem">FAQ's</li>
+            <li class="fListItem">Refund</li>
+            <li class="fListItem">Stories</li>
+            <li class="fListItem">Support</li>
+            <li class="fListItem">Feedback</li>
+          </ul>
+        </div>
+        <div class="footerMenu">
+          <h1 class="fMenuTitle">Products</h1>
+          <ul class="fList">
+            <li class="fListItem">Force</li>
+            <li class="fListItem">Blazer</li>
+            <li class="fListItem">Crater</li>
+            <li class="fListItem">Hippie</li>
+            <li class="fListItem">Air Jordan</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Footer Right  -->
+      <div class="footerRight">
+        <div class="footerRightMenu">
+          <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+          <div class="fMail">
+            <input type="text" placeholder="your@email.com" class="fInput" />
+            <button class="fButton">Join Now</button>
+          </div>
+        </div>
+        <div class="footerRightMenu">
+          <h1 class="fMenuTitle">Follow Us</h1>
+          <div class="fIcons">
+            <a href="https://www.linkedin.com/in/geekyprashant/" target="_blank"
+              ><img src="./images/linkedin.png" class="fIcon"
+            /></a>
+            <a href="https://github.com/geeky-prashant" target="_blank"
+              ><img src="./images/github.png" class="fIcon"
+            /></a>
+            <a href="https://twitter.com/geekyprashant" target="_blank"
+              ><img src="./images/twitter.png" class="fIcon"
+            /></a>
+          </div>
+        </div>
+        <div class="footerRightMenu">
+          <span class="copyright"
+            >© 2022
+            <a
+              class="link"
+              href="https://www.linkedin.com/in/geekyprashant/"
+              target="_blank"
+              >GeekyPrashant</a
+            >, All Rights Reserved</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- Linked JavaScript File  -->
+    <script src="./app.js"></script>
+  </body>
+</html>
