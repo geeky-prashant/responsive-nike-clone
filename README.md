@@ -9,7 +9,7 @@
 
   <h2 align="center">Responsive E-commerce Website</h2>
 
-  In this project, I have created Responsive E-commerce Website, <br />The project is built using HTML5, CSS3 & JavaScript.
+  In this project, I have created Responsive E-commerce Website, The project is built using HTML5, CSS3 & JavaScript.
 
   <a href="https://geeky-prashant.github.io/responsive-ecommerce-website/"><strong>➥ Live Demo</strong></a>
 
