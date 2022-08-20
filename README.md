@@ -1,23 +1,23 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/geeky-prashant/responsive-ecommerce-website)
-  ![GitHub stars](https://img.shields.io/github/stars/geeky-prashant/responsive-ecommerce-website)
-  ![GitHub forks](https://img.shields.io/github/forks/geeky-prashant/responsive-ecommerce-website?style=social)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/geeky-prashant/responsive-nike-clone)
+  ![GitHub stars](https://img.shields.io/github/stars/geeky-prashant/responsive-nike-clone)
+  ![GitHub forks](https://img.shields.io/github/forks/geeky-prashant/responsive-nike-clone?style=social)
   [![Twitter Follow](https://img.shields.io/twitter/follow/geekyprashant?style=social)](https://twitter.com/intent/follow?screen_name=geekyprashant)
  
   <br />
 
-  <h2 align="center">Responsive E-commerce Website</h2>
+  <h2 align="center">Responsive Nike Clone</h2>
 
-  In this project, I have created Responsive E-commerce Website, The project is built using HTML5, CSS3 & JavaScript.
+  In this project, I have created Responsive Nike Clone, The project is built using HTML5, CSS3 & JavaScript.
 
-  <a href="https://geeky-prashant.github.io/responsive-ecommerce-website/"><strong>➥ Live Demo</strong></a>
+  <a href="https://geeky-prashant.github.io/responsive-nike-clone/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
 ### Demo Screeshots
 
-![Responsive E-commerce Website Desktop Demo](./readme-images/Responsive-Ecommerce-Website.png "Desktop Demo")
+![Responsive Nike Clone Desktop Demo](./readme-images/Responsive-Ecommerce-Website.png "Desktop Demo")
 
 ### Prerequisites
 
@@ -27,18 +27,18 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **responsive-ecommerce-website** locally, run this command on your git bash:
+To run **responsive-nike-clone** locally, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/geeky-prashant/responsive-ecommerce-website.git
+sudo git clone https://github.com/geeky-prashant/responsive-nike-clone.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/geeky-prashant/responsive-ecommerce-website.git
+git clone https://github.com/geeky-prashant/responsive-nike-clone.git
 ```
 
 ### Contact
